@@ -46,13 +46,15 @@
     font-size: 16px;
     color: #FFD700;
     transition: .3s all;
-    transform: translateX(30px);
+    transform: translateX(-263px); /**/
     opacity: 0;
 }
 
 .list-group-item.like .fa-star {
+    position: relative;
+    top: -263px; /**/
     opacity: 1;
-    transform: translateX(0px);
+    transform: translate(10px, 0px); /* -263px */
 }
 
 .list-group-item.increase .list-group-item-label, .list-group-item.increase .list-group-item-input {
